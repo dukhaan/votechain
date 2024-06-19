@@ -1,0 +1,56 @@
+name: votechain
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: "^3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1
+  web3dart: ^2.7.3
+  auto_route: ^8.1.3
+  another_flushbar: ^1.12.30
+  bloc: ^8.1.4
+  easy_debounce: ^2.0.3
+  get_it: ^7.7.0
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+  json_annotation: ^4.9.0
+  logger: ^2.3.0
+  shared_preferences: ^2.2.3
+  sizer: ^2.0.15
+  skeletonizer: ^1.1.2+1
+  unicons: ^2.1.1
+  iconsax_plus: ^1.0.0
+  cached_network_image: ^3.3.1
+  iconsax: ^0.0.8
+  freezed_annotation: ^2.4.1
+  flutter_bloc: ^8.1.5
+  loader_overlay: ^4.0.0
+  flutter_spinkit: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  auto_route_generator: ^8.0.0
+  build_runner: ^2.4.9
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - src/artifacts/HelloWorld.json
+    - src/artifacts/Election.json
+    - assets/
+    - assets/images/

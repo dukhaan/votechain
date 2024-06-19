@@ -1,0 +1,14 @@
+export 'auth/auth.dart';
+export 'dashboard/dashboard.dart';
+export 'splash/splash.dart';
+export 'vote/vote.dart';
+export 'admin_dashboard/admin_dashboard.dart';
+export 'add_candidate/add_candidate.dart';
+export 'add_location/add_location.dart';
+export 'add_tps/add_tps.dart';
+export 'add_voter/add_voter.dart';
+export 'candidate/candidate.dart';
+export 'location/location.dart';
+export 'navigator/navigator.dart';
+export 'tps/tps.dart';
+export 'pick_location/pick_location.dart';
